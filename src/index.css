@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .App {
+    padding: 70px;
+  }
+  
+  .quote-box {
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+    padding: 40px 60px;
+    border-radius: 10px;
+    width: fit-content;
+    margin: 0 auto;
+    background-color: #fff;
+  }
+  
+  .quote-box h1 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .quote-box h2 {
+    margin-bottom: 20px;
+    text-align: right;
+  }
+  
+  .quote-box button {
+margin-left: auto;
+    display: block;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 17px;
+    border-radius: 50%;
+    border: none;
+  }
